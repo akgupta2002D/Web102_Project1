@@ -1,0 +1,14 @@
+.food-truck-details {
+    margin-top: 10px;
+  }
+  
+  .food-truck-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .food-truck-cuisine {
+    font-size: 0.9rem;
+    color: #666;
+  }

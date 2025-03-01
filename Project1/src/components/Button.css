@@ -1,0 +1,19 @@
+.button-container {
+    margin-top: 15px;
+  }
+  
+  .view-menu-button {
+    background-color: #d32f2f; /* Red */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .view-menu-button:hover {
+    background-color: #b71c1c;
+  }

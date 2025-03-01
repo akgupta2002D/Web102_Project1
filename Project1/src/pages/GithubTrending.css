@@ -1,0 +1,19 @@
+.github-trending {
+    text-align: center;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .repo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
