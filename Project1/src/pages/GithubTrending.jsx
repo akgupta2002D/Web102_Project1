@@ -17,7 +17,7 @@ const GithubTrending = () => {
             <Card
               key={repo.id}
               imageSrc={repo.owner.avatar_url} // GitHub profile image
-              name={repo.name}
+              name={repo.name.charAt(0).toUpperCase() + repo.name.slice(1)}
               cuisine={repo.description || "No description available"}
               menuLink={repo.html_url} // GitHub repo link
             />
